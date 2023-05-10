@@ -4,6 +4,8 @@ require("database.php");
 session_start();
 $errors = array();
 
+// โค้ดก๊อปเพื่อนมา เข้าใจไหม ไม่อ่ะ 
+//ใจจริงอยากเอามาทั้งหมดเเต่มันเยอะมากกกกกกกกกกกกกกกกกกกกก หลังจบฝึกกลับมาดูโค้ดตัวเองเเล้วยังอาย พี่โต้น พี่โยเซฟ พี่ไอซ์ต้อสาปหนูเเต่
 if (isset($_POST['login_user'])) {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);

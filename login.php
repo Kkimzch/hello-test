@@ -9,7 +9,6 @@ require("database.php");
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-  <!-- <link rel="stylesheet" href="css/login.css" /> -->
   <title>เข้าสู่ระบบ</title>
 </head>
 
@@ -17,6 +16,7 @@ require("database.php");
   <div class="container">
     <div class="forms-container">
       <div class="signin-signup">
+        <!-- พี่ต้นต้องสาปแช่งหนูเเน่ -->
         <form action="save_login.php" method="pos" class="sign-in-form">
           <h2 class="title">เข้าสู่ระบบ</h2>
           <div class="input-field">
@@ -34,6 +34,7 @@ require("database.php");
             </a>
           </div>
         </form>
+        <!-- อันนี้ทำได้นะ เเต่ไม่ได้เเปะมา -->
         <form action="register_db.php" method="post" class="sign-up-form">
           <h2 class="title">สมัครสมาชิก</h2>
           <div class="input-field">
